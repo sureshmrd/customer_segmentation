@@ -26,13 +26,14 @@
     - The Answer is : using **Elbow Method (WCCS)**.
     - The Elbow Method is a common technique used to determine the optimal number of clusters (K) in a KMeans clustering algorithm.
     - It involves plotting the within-cluster sum of squares (WCSS) against the number of clusters and looking for the "elbow" point where the rate of decrease in WCSS slows down significantly.
+    - ![image](https://github.com/sureshmrd/cust_seg/assets/123853377/9c95f3ef-4a06-41d3-b1f4-548af11f8165)
   ```python
      Kmeans = KMeans(n_clusters=i, init='k-means++', random_state=42)
     - Inside the loop, a new KMeans clustering model is initialized with the current value of i as the number of clusters.
     - n_clusters=i specifies the number of clusters for the KMeans model.
     - init='k-means++' specifies the initialization method for the centroids. 'k-means++' is a smart initialization method that helps to speed up convergence.
 
-    - ![image](https://github.com/sureshmrd/cust_seg/assets/123853377/9c95f3ef-4a06-41d3-b1f4-548af11f8165)
+  
  
 
 
