@@ -35,7 +35,7 @@
 - ![image](https://github.com/sureshmrd/cust_seg/assets/123853377/c5e1b1fa-2bac-4cea-abac-50a81a217409)
 
  
- ### Advantages:
+### Advantages:
 -**Personalized Marketing**: Customer segmentation allows for targeted marketing strategies tailored to the needs and preferences of different customer groups.
 -**Improved Customer Satisfaction**: By understanding different segments, businesses can offer more personalized experiences, leading to higher customer satisfaction.
 -**Enhanced Decision Making**: Data-driven segmentation provides insights that can guide strategic decision-making processes, such as product assortment, pricing strategies, and promotional campaigns.
