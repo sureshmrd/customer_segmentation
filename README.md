@@ -26,6 +26,12 @@
     - The Answer is : using **Elbow Method (WCCS)**.
     - The Elbow Method is a common technique used to determine the optimal number of clusters (K) in a KMeans clustering algorithm.
     - It involves plotting the within-cluster sum of squares (WCSS) against the number of clusters and looking for the "elbow" point where the rate of decrease in WCSS slows down significantly.
+  ```python
+     Kmeans = KMeans(n_clusters=i, init='k-means++', random_state=42)
+    - Inside the loop, a new KMeans clustering model is initialized with the current value of i as the number of clusters.
+    - n_clusters=i specifies the number of clusters for the KMeans model.
+    - init='k-means++' specifies the initialization method for the centroids. 'k-means++' is a smart initialization method that helps to speed up convergence.
+
     - ![image](https://github.com/sureshmrd/cust_seg/assets/123853377/9c95f3ef-4a06-41d3-b1f4-548af11f8165)
  
 
@@ -36,10 +42,10 @@
 
  
 ### Advantages:
--**Personalized Marketing**: Customer segmentation allows for targeted marketing strategies tailored to the needs and preferences of different customer groups.
--**Improved Customer Satisfaction**: By understanding different segments, businesses can offer more personalized experiences, leading to higher customer satisfaction.
--**Enhanced Decision Making**: Data-driven segmentation provides insights that can guide strategic decision-making processes, such as product assortment, pricing strategies, and promotional campaigns.
--**Competitive Advantage**: Implementing machine learning-based customer segmentation can give businesses a competitive edge by staying ahead of market trends and customer preferences.
+- **Personalized Marketing**: Customer segmentation allows for targeted marketing strategies tailored to the needs and preferences of different customer groups.
+- **Improved Customer Satisfaction**: By understanding different segments, businesses can offer more personalized experiences, leading to higher customer satisfaction.
+- **Enhanced Decision Making**: Data-driven segmentation provides insights that can guide strategic decision-making processes, such as product assortment, pricing strategies, and promotional campaigns.
+- **Competitive Advantage**: Implementing machine learning-based customer segmentation can give businesses a competitive edge by staying ahead of market trends and customer preferences.
 
 ### Conclusions
 - **Cluster 1** : Customers in this cluster have moderate annual income and moderate spending scores. They might be considered average customers who spend moderately compared to others. Businesses can focus on understanding their preferences better to tailor marketing strategies and product offerings that resonate with this segment.
