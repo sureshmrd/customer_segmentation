@@ -65,7 +65,7 @@ There are Many Clustering algorithms availble, but the 2 main important algorith
   - *Drawback*: May struggle with clusters of varying densities.
 
 ### Why Only KMeans?
-For your Customer Segmentation Analysis project, KMeans is likely the best choice because:
+For this Customer Segmentation Analysis, KMeans is likely the best choice because:
 - It scales well to large datasets.
 - It is easier to tune with just one parameter (k).
 - Customer segmentation often involves relatively well-separated, spherical clusters.
